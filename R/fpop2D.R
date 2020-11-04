@@ -20,11 +20,9 @@ fpop2D <- function(df, data1, data2, penalty, weights = NULL, testMode = FALSE)
 {
 
   if(is.null(weights)){weights <- 0}
-
   ###########################
   ### CALL Rcpp functions ###
   ###########################
-
 
   res <- fpop2DTransfer(df, penalty, weights, testMode)
 

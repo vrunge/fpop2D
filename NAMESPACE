@@ -1,4 +1,5 @@
 useDynLib(fpop2D, .registration = TRUE)
 
 importFrom(Rcpp, evalCpp)
+
 export(fpop2D)

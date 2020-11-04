@@ -1,21 +1,18 @@
 Package: fpop2D
 Type: Package
-Title: Changepoint detection algorithm for 2d time-series
+Title: Change-point detection algorithm for 2d time-series
 Version: 0.1.0
 Authors@R: c(
 	person("Vincent", "Runge", email = "vincent.runge@univ-evry.fr", role = c("aut", "cre")),
 	person("Guillem", "Rigaill", role = c("aut")),
 	person("Paul", "Fearnhead", role = c("aut")))
 Maintainer: Vincent Runge <vincent.runge@univ-evry.fr>
-Description: Changepoint detection algorithm for 2d time-series using functional pruning optimal partitioning. This is a dynamic programming algorithm with exact and heuristic methods. The package solves a class of problems for 2d time-series but also the change-in-slope changepoint detection problem.
+Description: Change-point detection algorithm for 2d time-series using functional pruning optimal partitioning. The algorithm used is dynamic programming with exact and heuristic pruning methods. The package solves a class of problems for 2d time-series as for example the change-in-slope change-point detection problem.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: Rcpp (>= 0.12.18)
-SystemRequirements: C++11
-DevPackage: vrunge/fpop2D
+Imports: Rcpp (>= 1.0.0)
 LinkingTo: Rcpp
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 Suggests: knitr, testthat
 VignetteBuilder: knitr
-Depends: R (>= 2.10)
